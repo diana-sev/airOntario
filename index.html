@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Air Ontario Home</title>
+    <link rel="stylesheet" type="text/css" href="airOntario_style.css"/>
+    <script src="jquery/jquery.js"></script>
+    <script src="jquery/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="jquery/jquery-ui.css" />
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400italic,500italic,700italic' rel='stylesheet' type='text/css'>
+    <script>
+    $(function () {
+        $(".datepicker").datepicker();
+    });
+    </script>
+</head>
+<body>
+    <div id="container">
+        <header>
+        <img id="logo" src="img/logo.png" alt="air ontario logo"/>
+        <div id="rightHeader">
+            <div id="login">
+                <input class="text" type="text" name="username" value="Username" />
+                <input class="text" type="text" name="password" value="Password" />
+                <input id="button" type="button" value="Login" />
+            </div>
+            <p><img src="img/card-coin.png"/>Join Air Ontario Mileage Club</p>
+        </div>
+
+        <nav>
+            <ul id="mainNav">
+                <li><a href="#">Deals</a></li>
+                <li><a href="#">Mileage Club</a></li>
+                <li><a href="#">Hotels</a></li>
+                <li><a href="#">Cars</a></li>
+                <li><a href="#">Holidays</a></li>
+                <li><a href="#">About Air Ontario</a></li>
+                <li><input id="search" type="text" name="search" value="Search our site" /></li>
+            </ul>
+        </nav>        
+        </header> 
+        <!--end of header-->  
+        
+        <!--Main content area--> 
+        <div id="topMain">
+
+        <div id="advert"><p class="mediumIta">Experience</p> <p id="boldIta">Canada</p> 
+            <p class ="mediumIta">Choose between our 6 destinations</p> <p class="ita24">from $<span id="numberIta">829</span></p>
+            <input class="bookNow" type="button" value="Book Now" />
+            </div>
+        
+        <nav>
+            <ul id="booking">
+                <li><a href="#"><img src="img/plane.png"/>Book</a></li>
+                <li><a href="#"><img src="img/list.png" />Manage</a></li>
+                <li><a href="#"><img src="img/suitcase.png" />Check-In</a></li>
+                <li><a href="#"><img src="img/clock.png" />Flight-Status</a></li>
+                <li><a href="#"><img src="img/palm-tree.png" /> Holiday</a></li>                
+            </ul>
+        </nav>
+        <div id="bookingNav">
+            <select class="drop">
+                <option value="" selected="selected">From</option>
+                <option value="Toronto">Toronto</option>
+                <option value="Calgary">Calgary</option>
+                <option value="Vancouver">Vancouver</option>
+                <option value="St.John">St.John</option>
+                <option value="Quebec">Quebec</option>
+            </select>
+            <select class ="drop">
+                <option value="" selected="selected">From</option>
+                <option value="Toronto">Toronto</option>
+                <option value="Calgary">Calgary</option>
+                <option value="Vancouver">Vancouver</option>
+                <option value="St.John">St.John</option>
+                <option value="Quebec">Quebec</option>
+            </select class>
+            <input value="Depart" type="text" class="datepicker">
+            <input value="Return" type="text" class="datepicker">
+            <input type="radio" name="sex" value="Return">Return
+            <input type="radio" name="sex" value="One-way">One-way  
+            <span id="multiCity">Multi-City <img src="img/more-info.png"></span>
+        </div>
+
+        </div>
+    </div>
+    
+        <section id="bottomMain">
+            <div class="img" id="img1">
+                <div class="section"> 
+            <p class="ita24">Toronto</p> 
+            <p class="ita14">Economy flight to Toronto</p> 
+            <p class ="ita14">from<span class="ita30">$834</span></p> 
+            <input class="bookNow" type="button" value="Book Now" />
+                </div>
+            </div>
+            <div class="img" id="img2">
+                <div class="section">
+                    <p class="ita24">St. John</p>
+                    <p class="ita14">Economy flight to St. John </p>
+                    <p class="ita14">from<span class="ita30">$1,033</span></p>
+                    <input class="bookNow" type="button" value="Book Now" />                    
+                </div>            
+            </div>
+            <div class="img" id="img3">
+                <div class="section">
+                    <p class="ita24">Calgary</p>
+                    <p class="ita14">Economy flight to Calgary</p>
+                    <p class="ita14">from<span class="ita30">$989</span></p>
+                    <input class="bookNow" type="button" value="Book Now" />
+                </div>
+              </div>
+            <div class="img" id="img4">
+            <div class="section">
+                <p class="ita24">Vancouver</p>
+                <p class="ita14">Economy flight to Vancouver</p>
+                <p class="ita14">from<span class="ita30">$1,188</span></p>
+                <input class="bookNow" type="button" value="Book Now" />
+            </div>
+            </div>
+        </section>
+    
+
+    <!--end of main content area-->
+        
+    <footer>
+        <!-- first part of footer -->
+        <div id="wrapFooter">
+            <div class="column">
+                <p>More About Air Ontario</p>
+                <ul>
+                    <li><a href="#">About Air Ontario</a></li>
+                    <li><a href="#">Air Ontario Holidays</a></li>
+                    <li><a href="#">Air Ontario Cargo</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <p>Where we fly</p>
+                <ul>
+                    <li><a href="#">Air Ontario Destinations</a></li>
+                    <li><a href="#">Our Partners</a></li>
+                    <li><a href="#">Route Map</a></li>
+                    <li><a href="#">Flights to Vancouver</a></li>
+                    <li><a href="#">Flights to Quebec City</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <p>Useful Links</p>
+                <ul>
+                    <li><a href="#">Payment Options</a></li>
+                    <li><a href="#">Baggage Information</a></li>
+                    <li><a href="#">Air Ontario Mileage Club</a></li>
+                    <li><a href="#">Latest News</a></li>
+                    <li><a href="#">Facts and Figures</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <p>Social Media</p>
+                <ul>
+                    <li><a href="#"><img src="img/facebook.png" />Facebook</a></li>
+                    <li><a href="#"><img src="img/twitter.png" />Twitter</a></li>
+                    <li><a href="#"><img src="img/linkedin.png" />Linkedin</a></li>
+                    <li><a href="#"><img src="img/google.png" />Google+</a></li>
+
+                </ul>
+            </div>
+            
+        </div>       
+        </footer>
+   
+</body>
+</html>
